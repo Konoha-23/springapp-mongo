@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: {{ include "spring-mongo.fullname" . }}
   labels:
-    {{- include "spring-mongo.labels" . | nindent 4 }}
+    app: {{ .Values.metadata.labels.app }}
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
