@@ -3,12 +3,12 @@ entries:
   spring-mongo:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-28T14:48:28.912399101-07:00"
+    created: "2024-03-29T06:36:19.779027742-07:00"
     description: A Helm chart for Kubernetes
-    digest: e9f552d71b5ca448e2d02928d19058b5c66cfebdbf0c0d252178b351ec05ed98
+    digest: b6f819700af8d86ba2790f95d2fe785b56c30663ee028b53551d4061049ec461
     name: spring-mongo
     type: application
     urls:
     - spring-mongo-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-28T14:48:28.911525845-07:00"
+generated: "2024-03-29T06:36:19.774376702-07:00"
