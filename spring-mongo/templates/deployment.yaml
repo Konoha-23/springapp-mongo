@@ -47,12 +47,12 @@ spec:
           env:
           - name: MONGO_DB_HOSTNAME
             value: {{ .Values.mongodbhostname}}
-          - name: MONGO_INITDB_ROOT_USERNAME
+          - name: MONGO_DB_USERNAME
             valueFrom:
               secretKeyRef:
                 name: {{ .Values.mongodbsecretName}} 
                 key:  {{ .Values.mongodbrootuserkey}}
-          - name: MONGO_INITDB_ROOT_PASSWORD
+          - name: MONGO_DB_PASSWORD
             valueFrom:
               secretKeyRef:
                 name: {{ .Values.mongodbsecretName}}
